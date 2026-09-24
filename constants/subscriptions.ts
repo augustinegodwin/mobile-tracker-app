@@ -149,7 +149,7 @@ export const MOCK_SUBSCRIPTIONS: Subscription[] = [
   {
     id: '13',
     src: github,
-    name: 'github',
+    name: 'github' ,
     price: 4.00,
     billingDay: 7,
     period: 'monthly',
@@ -161,7 +161,7 @@ export const MOCK_SUBSCRIPTIONS: Subscription[] = [
     id: '14',
     src: framer,
     name: 'framer',
-    price: 15.00,
+    price: 19.00,
     billingDay: 8,
     period: 'monthly',
     plan: 'Pro',
