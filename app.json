@@ -16,7 +16,9 @@
     "ios": {
       "supportsTablet": false
     },
-    "android": {},
+    "android": {
+      "package": "com.augustine312.subtrackermobile"
+    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
