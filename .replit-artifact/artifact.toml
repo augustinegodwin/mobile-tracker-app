@@ -1,0 +1,23 @@
+kind = "mobile"
+previewPath = "/mobile/"
+title = "Subscription Tracker Mobile"
+version = "1.0.0"
+id = "artifacts/sub-tracker-mobile"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/mobile/" ]
+localPort = 18143
+
+[services.development]
+run = "pnpm --filter @workspace/sub-tracker-mobile run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sub-tracker-mobile", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/sub-tracker-mobile", "run", "serve" ]
+
+[services.env]
+PORT = "18143"
+BASE_PATH = "/mobile/"
