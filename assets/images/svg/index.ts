@@ -21,7 +21,7 @@ import duolingo2024 from "./duolingo-2024.png";
 import youtubeKids from "./youtube.png";
 import framer from "./framer.png";
 import deer from "../deer.png"
-import logo from "../logo.png"
+import logo from "../icon.png"
 
 export const svgLogos: Record<string, string> = {
   "apple-music.png": appleMusic,
