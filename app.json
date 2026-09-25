@@ -4,12 +4,12 @@
     "slug": "sub-tracker-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/logo.png",
+    "icon": "./assets/images/icon.png",
     "scheme": "sub-tracker-mobile",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/images/logo.png",
+      "image": "./assets/images/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#111111"
     },
@@ -17,7 +17,11 @@
       "supportsTablet": false
     },
     "android": {
-      "package": "com.augustine312.subtrackermobile"
+      "package": "com.augustine312.subtrackermobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#111111"
+      }
     },
     "web": {
       "favicon": "./assets/images/icon.png"
